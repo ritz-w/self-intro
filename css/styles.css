@@ -116,10 +116,10 @@ p {
 }
 
 .hide {
-    opacity:0;
+    display: none;
 }
 .show {
-    opacity:1;
+    display: block;
 }
 /*section 1*/
 .section-one {
@@ -161,7 +161,7 @@ p {
   height: 30px;
   position: relative;
   margin: 5% 40%;
-  animation: blinker 3s linear infinite;
+  animation: blinker 1s linear infinite;
 }
 
 /*section two*/
@@ -334,8 +334,13 @@ p {
   background-color: white;
   margin: 2em;
   padding: 40px 15px;
-  font-size: 20px;
+  font-size: 17px;
   border: 2px dashed black;
+  text-align: center;
+}
+
+#text-area p{
+  background-color: yellow;
 }
 
 .pink {
@@ -359,6 +364,7 @@ p {
 
 /* section 5*/
 #secfiveheadertext {
+  margin-top: 0%;
   margin-left: 40%;
   margin-bottom: 7%;
   font-family: 'Kavivanar', Arial;
@@ -366,3 +372,91 @@ p {
   text-decoration: underline;
   z-index: 1;
 }
+
+.section-five {
+   background-image: url("graphy.png");
+   padding: 5%;
+}
+
+.projects-table {
+  margin-left: 10%;
+  width: 80%;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+.projects-image{
+  width: 30%;
+}
+
+.projects-image img{
+  margin: 10%;
+  width: 80%;
+}
+
+.projects-description{
+  padding:20px; 
+  border-width:0px; 
+  vertical-align: top;
+}
+
+.projects-description h3{
+  font-family: 'Kavivanar';
+  font-size: 22px;
+  text-decoration: underline;
+  text-transform: italic;
+}
+
+.projects-description p{
+  font-family: 'Allerta';
+  font-size: 15px;
+}
+
+/*section six*/
+.section-six {
+ position: relative; 
+}
+.secsixheadergreen {
+  margin-top: -150px;
+  height: 380px;
+  text-align: center;
+  background-color: green;
+  -ms-transform: skewY(-10deg); /* IE 9 */
+  -webkit-transform: skewY(-10deg); /* Safari 3-8 */
+  transform: skewY(-10deg);
+  opacity: 0.3;
+}
+
+.secsixheadergreen2 {
+  margin-top: -110px;
+  height: 210px;
+  text-align: center;
+  background-color: grey;
+  opacity: 0.3;
+}
+
+.background-black {
+  margin-left: calc(50% - 300px);
+  margin-top: -300px;
+  background-color: black;
+  color: white;
+  width: 600px;
+  position: absolute;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.background-black p {
+  padding: 20px;
+  font-size: 20px;
+}
+
+.withfadein {
+  -webkit-transition: all 2s ease-in-out;
+  -moz-transition: all 2s ease-in-out;
+  -ms-transition: all 2s ease-in-out;
+  -o-transition: all 2s ease-in-out;
+  transition: all 2s ease-in-out;
+  opacity: 0;
+}
+
