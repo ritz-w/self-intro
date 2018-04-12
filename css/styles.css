@@ -3,11 +3,18 @@ body {
 }
 
 p {
-  font-size: 20px;
+  font-size: 22px;
   font-family: 'Allerta', Helvetica;
 }
 
-
+a {
+  color: blue;
+}
+a:hover {
+  text-decoration: none;
+  text-shadow: 0px 2px 3px grey;
+  color: #blue;
+}
 @keyframes blinker {
   50% {
     opacity: 0;
@@ -340,7 +347,6 @@ p {
 }
 
 #text-area p{
-  background-color: yellow;
 }
 
 .pink {

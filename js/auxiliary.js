@@ -25,7 +25,7 @@ var windows = [
   img: "img/rainbow.png"
   },
   {
-  text: "I've had some experience up until now, mostly self-taught, and some of it gained through online courses. <br/><br/> But at this stage I need to learn to improve making my code cleaner, my way of structuring things more efficient and farsighted, and to practice different types of projects and requirements. <Br><br> I especially need hands on work experience with a team/within a project structure.",
+  text: "I've had some experience up until now, mostly self-taught, and some of it gained through online courses. <br/><br/> But at this stage I need to learn to improve making my code cleaner, my way of structuring things more efficient and farsighted, and to practice different types of projects and requirements. <Br><br> I especially need hands-on work experience with a team/within a project structure.",
   img: ""
   }
   ]
