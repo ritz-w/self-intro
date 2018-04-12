@@ -7,17 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Allerta|Kavivanar|Raleway|Crimson+Text|Quattrocento+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Allerta|Sriracha|Kavivanar|Raleway|Crimson+Text|Quattrocento+Sans" rel="stylesheet">
   </head>
 
 <body>
+  <div id="top-button" class="topButton hide"><a id="top-button-link" onclick="topFunction()">Back to Top ↑ </a></div>
   <div class="nav">
     <div class="logo">
       <h3>RITZ WU</h3>
       </div>
     <ul>
-      <li><a href="about.html">Github</a></li>
-      <li><a href="contact.html">Contact</a></li>
+      <li><a href="https://github.com/ritz-w">Github</a></li>
+      <li><a href="mailto:ritz.wu@outlook.com?Subject=Hello%Ritz">Contact</a></li>
     </ul>
   </div>
   <div class="border-box">
@@ -26,21 +27,62 @@
         <img class="profilepic" src="img/me.jpg" />
         <p class="caption"> "Me not long ago in front of a very #extra Japanese waterfall."</p>
       </div>
-      <div class="carousel-side">
-<!--         <div class="carousel-slide-1">
-          <p>Hi, my name is Ritz. <br> (Yes, like the range of items, hotel, etc.)</p>
-        </div>
-        <div class="carousel-slide-2">
-          <p>I am from California and Taiwan, though I currently live in Asagaya, Tokyo.</p>
-        </div>
-          <div class="carousel-slide-3">
-          <p>I'm 27 years old.</p>
-        </div> -->
+      <div id="carousel-side">
+        <div id="carousel-text">
+      </div>
+       <img src="img/down2.png" id="downbutton" /> 
+    </div>
+  </div>
+    <img class=circle src="img/one.jpg" />
+  <div class="section-two">
+    <p id="sectwoheadertext">I'm a curator and arts researcher.</p>
+    <div class="section-two-header">
+      <div class="sectwoheaderpink"><img src="img/eye5.gif" /></div>
+      <div class="sectwoheaderyellow"></div>
+      <div class="section-two-text-one">
+        <p>I graduated from New York University in 2011, and the Royal College of Art in 2014.</p>
+        <p>My research is on how technology is changing the way we have aesthetic experiences and think about the visual matter in the world around us. <br><Br><i>How can technology provide a new environment for us to share, create, and view art?"</i><br><br>Exploring this question is one of the main reasons I want to study computer programming. One day, I want to invent something great, that allows this to happen.</p>
+      </div>
+      <div class="section-two-text-two">
+        <p>As an example of the kind of theoretical work I've done in this area - previously, I've written about how the context of making art can be viewed as a self-generating system.<br><Br>This idea came from my interest in cybernetics and new media, two examples of trends in contemporary art that have developed alongside the internet in the 1990s until today.</p>
+      </div>
+      <div class="section-two-diagram">
+        <img src="img/diagram.png" />
       </div>
     </div>
-    <img class=circle src="img/zero.jpg" />
+    <img class=circle src="img/two.jpg" />
+    <div class="section-three">
+      <p id="secthreeheadertext">For further reference, here's an archive I made documenting projects that use technology to enhance the experience of art.</p>
+      <div class="section-three-image">
+        <a href="http://d-d-a.herokuapp.com" target="_blank"><div id="overlay"><p> Made using <br />Ruby on Rails 💎, Bootstrap, and Javascript</p></div>
+        <img id="dda-screenshot" src="img/dda2.png" /></a>
+      </div>
+    </div>
+    <img class=circle src="img/three.jpg" />
+    <div class="section-four">
+      <div class="secfourtextsection">
+      <p id="secfourheadertext">Why am I applying?</p>
+    </div>
+    <div class="secfourcircle">
+        <div class='circle-container'>
+          <p id="text-area"></p>
+          <div class='deg0 circlehover green'></div>
+          <div class='deg45 circlehover pink'></div>
+          <div class='deg90 circlehover blue'></div>
+          <div class='deg135 circlehover pink'></div>
+          <div class='deg180 circlehover green'></div>
+          <div class='deg225 circlehover blue'></div>
+          <div class='deg315 circlehover pink'></div>
+        </div>
+      </div>
+    </div>
+    <img class="circle" src="img/four.jpg" />
+    <div class="section-five">
+      <p id="secfiveheadertext">My Experience</p>
+    </div>
   </div>
-    <script src=“main.js”></script>
+  <script src="js/main.js"></script>
+  <script src="js/auxiliary.js"></script>
 </body>
 </html>
 
