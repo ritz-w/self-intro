@@ -26,6 +26,7 @@ getButton.addEventListener("click", expandText);
 
 var i = 1;
 function expandText() {
+  if (i<2) {
   var slideMaker = document.createElement("div")
   var slideText = document.createElement("p")
     slideMaker.id= slides[i].title;
@@ -33,6 +34,15 @@ function expandText() {
     slideMaker.appendChild(slideText)
     carouselSide.appendChild(slideMaker);
     i=(i+1);
+    } else if (i==2) {
+    var slideMaker = document.createElement("div")
+    var slideText = document.createElement("p")
+    slideMaker.id= slides[i].title;
+    slideText.innerHTML = slides[i].text;
+    slideMaker.appendChild(slideText)
+    carouselSide.appendChild(slideMaker);
+      getButton.style.display = "none";
+    }
   }
 
 
