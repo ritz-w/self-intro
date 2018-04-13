@@ -481,3 +481,165 @@ a:hover {
   opacity: 0;
 }
 
+/* responsive */
+@media only screen and (max-width: 700px) {
+.border-box {
+  height: 100%;
+  padding-top: 10%;
+  margin: 0px;
+  border-left: 10px solid black;
+  border-right: 10px solid black;
+}
+
+.nav ul li {
+  display: block;
+  padding: 5px;
+}
+
+.logo {
+  width: 150px;
+}
+
+.section-one {
+  display: block;
+}
+
+#carousel-side {
+  padding: 10%;
+}
+
+.picture-side {
+  text-align: center;
+  width: 100%;
+}
+
+.picture-side p{
+  margin-left: calc(50% - 100px);
+}
+
+.picture-side img{
+  margin-left: 0%;
+}
+
+#sectwoheadertext {
+  margin-left: 5%;
+}
+
+.section-two-text-one {
+  width: 80%;
+  margin-left: 5%;
+  padding: 5%;
+  margin-bottom: 10%;
+  position: relative;
+}
+
+.section-two-text-two {
+  display: none;
+}
+
+.section-two-diagram {
+  display: none;
+}
+
+#secthreeheadertext {
+  margin-left: 0;
+  width: 100%;
+  font-size: 20px;
+}
+
+.section-three-image {
+  margin-left: 0;
+}
+
+#dda-screenshot {
+  width: 80%;
+  margin-left: 10%;
+  border: 1px solid black;
+}
+
+#overlay {
+  width: 70%;
+  margin-left: 10%;
+  height: auto;
+}
+
+#overlay p {
+  margin: 14% 0%;
+  font-size: 14px;
+}
+
+#secfourheadertext {
+  text-align: center;
+  width: 50%;
+  font-size: 20px;
+  margin-bottom: 15%;
+  margin-left: 25%;
+}
+
+.circle-container {
+  border: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.circle-container div {
+  top: -210px;
+  left: -25px;
+  margin-left: 15%;
+  position: relative;
+  width: 80%;
+  height: 2em;
+  display: inline-flex;
+}
+
+.circlesarea {
+}
+
+.circlehover {
+  transform: none;
+}
+#text-area {
+    width: 80%;
+    height: 320px;
+    margin: 5%;
+    font-size: 14px;
+}
+
+.section-two-text-one {
+  width: 80%;
+  margin-left: 5%;
+  padding: 5%;
+}
+
+.section-two-text-one p{
+  padding: 0;
+}
+
+#secfiveheadertext {
+  margin-left: 0%;
+}
+
+img {
+  width: 80%;
+}
+
+p {
+  width: 100%;
+  text-align: center;
+}
+
+#top-button {
+  margin-left: 40%;
+}
+
+.background-black {
+  width: 70%;
+  margin-left: 15%;
+}
+
+.background-black p{
+  width: 90%;
+  padding: 5%;
+}
+}
