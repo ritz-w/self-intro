@@ -5,7 +5,7 @@ var windows = [
   img: "img/bulb.png"
   },
   {
-  text: "The Founders and Coders curriculum provides hands on work experience and training in backend skills, beyond my current knowledge. <br><br>It also seems to place an emphasis on understanding the concepts thoroughly, which appeals to me a lot.",
+  text: "I'm interesting in gaining hands on work experience and training in backend skills, beyond my current knowledge.",
   img: "img/great.png"
   },
   {
