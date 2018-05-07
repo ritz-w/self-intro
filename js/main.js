@@ -9,7 +9,7 @@ var slides = [
   },
   {
   title: "carousel-slide-3",
-  text: "Scroll below to find out more about me, <br> and why I want to apply to Founders and Coders."
+  text: "Scroll below to find out more about me, <br> and why I want to apply for a coding bootcamp."
   }
   ]
 
